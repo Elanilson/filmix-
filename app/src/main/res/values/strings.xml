@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Filmix</string>
+    <string name="inicio">Inicio</string>
+
+    <string name="generos">Categorias</string>
+    <string name="filmes">Filmes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="top10">Top 10 no Brasil</string>
+    <string name="mais_informacoes">Mais informações</string>
+    <string name="assistir">Assistir</string>
+    <string name="opcoes_semelhantes">Opções semelhantes</string>
+    <string name="estrelando">Estrelando:</string>
+    <string name="direcao">Direção:</string>
+    <string name="entretenimento">Entretenimento</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="fechar">Fechar</string>
+    <string name="download">Download</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="series">Series</string>
+    <string name="lista">Minha Lista</string>
+</resources>

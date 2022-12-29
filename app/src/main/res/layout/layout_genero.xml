@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CardCategoria"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:background="@drawable/teste1"
+    android:clickable="true"
+    app:cardBackgroundColor="@color/cinza"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="5dp"
+    app:circularflow_defaultRadius="6dp"
+    app:circularflow_radiusInDP="7dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewNomegenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingTop="15dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="15dp"
+            android:text="Comédia"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

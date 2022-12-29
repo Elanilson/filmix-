@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/menu_lancamentos"
+        android:icon="@drawable/ic_lista_24"
+        android:title="@string/lista" />
+
+    <item
+        android:id="@+id/menu_filmes"
+        android:icon="@drawable/ic_series_24"
+        android:title="@string/filmes" />
+    <item
+        android:id="@+id/menu_inicio"
+        android:icon="@drawable/ic_home_24"
+        android:title="@string/inicio" />
+    <item
+        android:id="@+id/menu_generos"
+        android:icon="@drawable/ic_categorias_24"
+        android:title="@string/generos" />
+    <item
+        android:id="@+id/menu_pesquisar"
+        android:icon="@drawable/ic_search_24"
+        android:title="@string/pesquisar" />
+</menu>

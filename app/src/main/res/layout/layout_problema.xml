@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_prev"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cinza"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewPrevCapa"
+            android:layout_width="210dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/padrao" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewPrevTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/archivo_black"
+                    android:paddingRight="3dp"
+                    android:text="What is Lorem Ipsum?"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonPrevClose"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/ic_cancel_24" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewPrevDuracao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ao relatar problema com este filme, favor fornecer todos os problemas que você teve."
+                    android:textColor="@color/whitelite" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editRelato"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@android:color/transparent"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="Escreva algo..."
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/whitelite" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_MaisInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonProblema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_lerta_24"
+                android:text="Relatar problema"
+                android:theme="@style/Button.previa"
+                app:icon="@drawable/ic_lerta_24"
+                app:iconTint="@color/black" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/whitelite" />
+
+    </LinearLayout>
+
+</LinearLayout>
